@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Runtime output and generated artifacts
+*.log
+*.db
+*.sqlite
+*.sqlite3
+**/artifacts/
+**/tmp/
+**/qa_render/
+**/_report_render/
+
+# Local recruitment audit trail can contain demonstration actions
+AutomatedRecruitmentWorkflowSystem/audit_log.csv
