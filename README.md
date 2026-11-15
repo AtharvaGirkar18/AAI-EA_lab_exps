@@ -16,3 +16,8 @@ A monorepo containing four independent classroom and portfolio projects. Each pr
 Projects are independent. Open the project folder, follow its README, and create a separate Python virtual environment there. Some workbenches use the same default port, so run those projects one at a time or configure a different port as described in their README.
 
 Sample data is included where the project uses it. Runtime logs, local databases, virtual environments, caches, and rendered review files are excluded from Git.
+
+## Additional experiment notebooks
+
+Four standalone Jupyter experiments are available in [ExperimentNotebooks](ExperimentNotebooks/README.md).
+
